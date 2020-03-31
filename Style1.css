@@ -1,0 +1,536 @@
+.nav{
+	margin-top:-190px;
+	height:475px;
+    background-image:url('Star-Movies.jpg');
+	
+width:1300px;
+	float:center;
+	font-size:21px;
+	background-repeat:no-repeat;
+	
+}
+.mainheader{
+	position:absolute;
+	left:130px;
+}
+.nav_wrapper{
+	height:30px;
+	width:800px;
+	position:absolute;
+	top:10px;
+	left:221px;
+	
+	
+}
+
+*{
+	
+    -webkit-appearance: none;
+
+}
+.nav ul{
+	margin :0;
+	padding:0;
+	overflow:hidden;
+	background:black;
+	width:900px;
+	height:100px;
+	
+
+}
+.nav ul li{
+	list-style:none;
+}
+.nav ul li a{
+	text-decoration:none;
+	float:left;
+	display:block;
+	padding:10px 20px;
+	color:red;
+}
+.nav ul li a:hover{
+	color:blue;
+	
+}
+
+#logo:hover{ opacity: 0.7; }
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	top:75px;
+	left:200px;
+    background-color: #f9f9f9;
+   width: 135px;
+   height:200px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body{
+	padding:0px;
+	width:100%;
+	background:url("body_movie.jpg") 0% 0% ;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:100%;
+	
+}
+.all{
+	position:absolute;
+	background-image:url("back_totay.jpg");
+	width:87%;
+	height:77%;
+	margin-left:100px;
+	margin-top:400px;
+}
+
+
+#movie_types{
+	position:absolute;
+	left:500px;
+	top:550px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movie_types:hover{
+	opacity:0.9;
+	color:lightblue;
+}
+#action_movies11{
+	
+	position:abdolute;
+
+    width: 1000px;
+    height: 500px;
+    background-image:url("back_action.jpg");
+    margin-left:50px;
+	margin-top:100px;
+	visibility:hidden;
+}
+
+.legend{
+  position: relative;
+  width: 970px;
+  display: block;
+  background: black;
+  padding: 15px;
+  color: lime ;
+  font-size: 26px;
+} 
+
+li.dropdown1 {
+    display: inline-block;
+	list-style:none;
+}
+
+.dropdown-content1{
+    display: none;
+    position: absolute;
+	top:627px;
+	left:447px;
+	background-color: lightblue;
+   width: 310px;
+   height:200px;
+   
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+	
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover {
+	background-color: #f1f1f1;
+	width:170px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+ul li{
+	list-style:none;
+}
+
+
+#drama_movies11{
+	
+	position:abdolute;
+   
+    width: 1000px;
+    height: 550px;
+    background-image:url("back_drama.jpg");
+	background-repeat:no-repeat;
+	background-size:1000px;
+    margin-left:50px;
+	visibility:hidden;
+	
+}
+
+.legend1{
+  position: relative;
+  width: 970px;
+  display: block;
+  background: lightblue;
+  padding: 15px;
+  color: #fff;
+  font-size: 29px;
+} 
+
+#horror_movies11{
+	
+	position:abdolute;
+   
+    width: 1010px;
+    height: 550px;
+    background-image:url("back_horror.jpg");
+	background-repeat:no-repeat;
+
+    margin-left:50px;
+	visibility:hidden;
+	
+}
+
+
+.legend2{
+  position: relative;
+  width: 970px;
+  display: block;
+  background: black;
+  padding: 15px;
+  color: brown ;
+  font-size: 29px;
+} 
+
+#movies1{
+	position:absolute;
+	left:170px;
+	top:425px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: lightblue;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies1:hover{
+	opacity:0.9;
+	color:blue;
+}
+
+#movies2{
+	position:absolute;
+	left:439px;
+	top:400px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: lightblue;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies2:hover{
+	opacity:0.9;
+	color:blue;
+}
+
+#movies3{
+	position:absolute;
+	left:670px;
+	top:400px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: lightblue;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies3:hover{
+	opacity:0.9;
+	color:blue;
+}
+
+
+#movies4{
+	position:absolute;
+	left:170px;
+	top:487px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: lightgreen;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies4:hover{
+	opacity:0.9;
+	color:green;
+}
+
+#movies5{
+	position:absolute;
+	left:445px;
+	top:478px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: lightgreen;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies5:hover{
+	opacity:0.9;
+	color:green;
+}
+
+#movies6{
+	position:absolute;
+	left:670px;
+	top:487px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: lightgreen;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies6:hover{
+	opacity:0.9;
+	color:green;
+}
+
+#movies7{
+	position:absolute;
+	left:55px;
+	top:419px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies7:hover{
+	opacity:0.9;
+	color:red;
+}
+
+#movies8{
+	position:absolute;
+	left:280px;
+	top:407px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.9;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies8:hover{
+	opacity:0.9;
+	color:red;
+}
+
+#movies9{
+	position:absolute;
+	left:543px;
+	top:407px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies9:hover{
+	opacity:0.9;
+	color:red;
+}
+
+#movies10{
+	position:absolute;
+	left:785px;
+	top:407px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#movies10:hover{
+	opacity:0.9;
+	color:red;
+}
+
+
+
+
+
+a:hover, a:visited, a:link, a:enable
+{
+    text-decoration: none;
+	
+}
+
+#login_button{
+	position:absolute;
+	left:1070px;
+	top:15px;
+	padding-top: .4em;
+    padding-right: 45px;
+    padding-bottom: .6em;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: 500px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.7;
+    transition: opacity 0.4s;
+	text-decoration:none;
+}
+#login_button:hover{
+	opacity:0.9;
+	color:lightblue;
+}
+
+footer{
+	position:absolute;
+	top:153%;
+	left:0px;
+    background:black;
+    width:100%;
+}
+
+#footerr{
+	position:absolute;
+	left:350px;
+	font-size:17px;
+	color:white;
+	bottom:35px;
+	
+}
+
+#footer2{
+	position:absolute;
+	left:1000px;
+	bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+

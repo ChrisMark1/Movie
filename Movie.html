@@ -1,0 +1,146 @@
+<?php
+session_start();
+include_once 'dbconn.php';
+
+if(!isset($_SESSION['user']))
+{
+ header("Location: index.php");
+}
+$res=mysql_query("SELECT * FROM users WHERE user_id=".$_SESSION['user']);
+$userRow=mysql_fetch_array($res);
+?>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Star Movies</title>
+   <meta charset ="ISO-8859-7">
+   <link rel="stylesheet" href="Style.css" type="text/css">
+   <link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
+   <script type="text/javascript" src="Movie.js">
+   </script>
+   
+  
+   
+</head>
+<body width="100%">
+    <header class="mainheader">
+	     
+    </header>
+	 <nav>
+	  <div class="nav">
+	  <div class="nav_wrapper">
+		 <ul>
+	     <li >
+		 <a href="Movie.html" style="text-decoration:none;"  >
+		
+		 <br>
+		 <span style="position:absolute;top:55px;left:90px;font-size:17px;">Αρχική</span>
+		 </li>
+		 <li class="dropdown">
+		 <a href="#" style="text-decoration:none;"  >
+		
+		 <br>
+		 <span style="position:absolute;top:55px;font-size:17px;margin-left:197px;"  >Ταινιοθήκη</span>
+		 <ul class="dropdown-content">
+		   
+			
+			<li ><a href="#" style="color:black;font-size:15px;"  >Ταινίες Περιπέτειας</a></li>
+			<li ><a href="#" style="position:absolute;top:70px;;color:black;font-size:15px;"  >Δράμα</a></li>
+			<li ><a href="#" style="position:absolute;top:120px;;color:black;font-size:15px;" >Ταινίες Τρόμου</a></li>
+			
+			
+			
+			 
+		 </ul>
+		 </li>
+		 <li >
+		 <a href="#">
+		
+		 <br>
+		 <span style="position:absolute;top:55px;font-size:17px;margin-left:350px;">Forum</span>
+		 </li>
+		  <li >
+		      <a href="#" style="text-decoration:none;"  >
+		
+		 <br>
+		 <span style="position:absolute;top:55px;font-size:17px;margin-left:463px;" >Νέα και Επικοινωνία</span>
+		 </li>
+	    
+	     </ul>
+		 </div>
+      </div>
+	  
+	  </nav>
+	   
+	 
+	  
+	
+		 <p><a id="login_button" href="index.php">Login</a></p>
+		
+		  <p><a id="next_page" href="Movie1.html">Movies Gallery</a></p>
+		
+	  
+	    
+	  
+	  
+	  
+	  
+	  
+	   <footer>
+			            
+				       
+				      <div id="footerr" > 
+					    &copy; 2016
+	                    <a href="http://star-movie.net/" target="_blank" style="text-decoration:none;">Star Movies</a>.
+	                    All rights reserved by Chis_Markellos<br>
+					   Καλώς ήρθατε!!<br>
+					   Αγαπητοί φίλοι/ες σας καλωσορίζουμε στην ιστοσελίδα www.star_movies.net<br>
+					   Ελπίζουμε ότι θα βρείτε εδώ αυτό που ψάχνατε, να βαθμολογίσετε,<br>
+					   καθώς και να σχολιάσετε τις ταινίες μας!<br>
+					   Κρίνεται απαραίτητη η εγγραφή σας.<br>
+					    Καλή διασκέδαση!<br>
+						</div>
+                      <img src="footer1.jpg" id="footer1" width="180px" style="text-decoration:none;">
+					  <img src="footer2.jpg" id="footer2" width="180px" style="text-decoration:none;">
+
+					   
+					
+			
+				
+				
+	              
+	        </footer>
+	  
+	  
+	  
+	  
+	  
+	       
+	      
+	           
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				</body>
+				</html>
